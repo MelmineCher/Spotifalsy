@@ -20,11 +20,99 @@ header {
     background-color: black;
     color: #1DB954;
 }
-
-header img {
-    height: 100px;
+/* Style the top navigation bar */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 30px;
+    background-color: rgb(6, 136, 17);
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+
+
+}
+.heading-logo{
+    color: black;
+    font-size: 28px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul .lists{
+    margin: 0px 5px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    box-shadow: inset 8px 8px 8px ;
+}
+.lists:nth-child(odd){
+    box-shadow: 8px 8px 8px;
+}
+.links{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(6, 136, 17);
+}
+
+.heading{
+    font-size: 66px;
+    text-align: center;
+    line-height: 90%;
+}
+
+.heading span{
+    color: aliceblue;
+}
+
+.button {
+    margin: 0px 5px;
+    padding: 12px 28px;
+    border-radius: 30px;
+    box-shadow: inset 8px 8px 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    background-color: rgb(10, 1, 1);  
+    border: 2px solid rgb(0, 5, 1);
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(6, 136, 17);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  .button:hover, ul .lists:hover {
+    background-color: rgb(6, 136, 17);
+    color: rgb(2, 0, 0);
+  }
 h1 {
     padding-top: 35px;
 }
@@ -106,3 +194,4 @@ h2 {
 h3 {
     margin-inline: 10px;
 }
+
